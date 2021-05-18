@@ -1,4 +1,7 @@
 # apache_kafka
-Python based basic Appache Kafka application for produce and consume fake data.
+Python tabanlı Apache Kafka ile temel produce ve consume işlemlerini yapabilen bir uygulama. Sahte veri kullanmaktadır.
 
-This application use Python language and kafka-python library for produce data in clusters. Data created by Faker library. Also there is a script file for consume data from kafka. Script print out all data to console.
+Bu uygulama Python dilini ve kafka-python kütüphanesi ile Kafka'ya ulaşımını kullanır. Data Faker kütüphanesi ile üretilmektedir. Consume işlemi ise shell konsolundan bir script ile gerçekleştirilir. Script datayı konsola yazdırmaktadır.
+
+Docker file içinde container içine alınmış uygulamayı aşağıdaki komut ile build'leyebilirsiniz.
+docker build -t dockerpython.
